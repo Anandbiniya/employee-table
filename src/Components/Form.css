@@ -1,0 +1,50 @@
+.details_label {
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  justify-content: center;
+  margin: auto 10px;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.details_label::after {
+  content: ":";
+}
+.submitdata {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.submitdata > button {
+  margin: 0 1rem;
+  border-radius: 5px;
+  background-color: tomato;
+  color: #fff;
+  height: 40px;
+}
+.submitdata > button:hover {
+  background-image: linear-gradient(
+    to right,
+    #eb3941,
+    #f15e64,
+    #e14e53,
+    #e2373f
+  );
+  box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}
+.information {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+div > input {
+  border-bottom: 1px solid orangered;
+  padding: 0 10px;
+}
+h5 {
+  color: brown;
+  font-style: oblique;
+  font-size: 20px;
+}
